@@ -17,5 +17,5 @@ audio = generator.generate(
     max_audio_length_ms=5_000,
 )
 
-torchaudio.save("csm_voice.wav", audio.unsqueeze(0).cpu(), generator.sample_rate)
+torchaudio.save("ubuntu1.wav", audio.unsqueeze(0).cpu(), generator.sample_rate)
 
